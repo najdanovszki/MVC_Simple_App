@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApp", "MVCApp\MVCApp.csproj", "{65E4A544-5E63-47BC-935C-014FCC1A463D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{944C1E5F-A765-4021-8CA2-A590C0258EDA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MVCDb", "MVCDb\MVCDb.sqlproj", "{F73ED73E-6D9A-4E5D-9604-45F3589CCF0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{65E4A544-5E63-47BC-935C-014FCC1A463D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65E4A544-5E63-47BC-935C-014FCC1A463D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65E4A544-5E63-47BC-935C-014FCC1A463D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944C1E5F-A765-4021-8CA2-A590C0258EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944C1E5F-A765-4021-8CA2-A590C0258EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944C1E5F-A765-4021-8CA2-A590C0258EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944C1E5F-A765-4021-8CA2-A590C0258EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73ED73E-6D9A-4E5D-9604-45F3589CCF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73ED73E-6D9A-4E5D-9604-45F3589CCF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73ED73E-6D9A-4E5D-9604-45F3589CCF0B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F73ED73E-6D9A-4E5D-9604-45F3589CCF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73ED73E-6D9A-4E5D-9604-45F3589CCF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73ED73E-6D9A-4E5D-9604-45F3589CCF0B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
